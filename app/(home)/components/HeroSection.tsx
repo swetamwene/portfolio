@@ -2,6 +2,7 @@ import { MovingBorderBtn } from "@/components/ui/moving-border";
 import Link from "next/link";
 import React from "react";
 import Title from "./Title";
+import { MdOutlineFileDownload } from "react-icons/md";
 
 const HeroSection = () => {
   return (
@@ -39,8 +40,17 @@ const HeroSection = () => {
           <div className="glow absolute top-[40%] right-1/2 -z-10"></div>
         </div>
         <div className="absolute bottom-5 sm:bottom-14 left-0 sm:-up-[10]">
-          <MovingBorderBtn borderRadius="4.5rem" className="p-0 font-semibold">
-            <p>Open To Work!</p>
+          <MovingBorderBtn
+            borderRadius="6.0rem"
+            className="p-0 m-0 font-semibold"
+          >
+            <MdOutlineFileDownload />
+            <a
+              href="https://drive.google.com/drive/folders/11AlhSAv_StuYLixHMjFStTd-Df0bx0hc?usp=drive_link"
+              className="p-0 m-0"
+            >
+              Download Resume!
+            </a>
           </MovingBorderBtn>
         </div>
       </div>
