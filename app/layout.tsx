@@ -6,10 +6,9 @@ import { ThemeProvider } from "@/components/theme-provider";
 const grotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title:
-    "Nishant Dev - Full-Stack Developer | React, Angular, Node.js, MongoDB",
+  title: "Sweta Yadav - Portfolio",
   description:
-    "Discover the professional portfolio of Nishant Dev, an expert full-stack developer with a strong background in React, Angular, Node.js, and MongoDB. View projects, read blog posts, and learn more about Nishant's technical skills and experience.",
+    "Sweta Yadav is a software engineer based in India. She is passionate about building accessible and inclusive web applications.",
 };
 
 export default function RootLayout({
